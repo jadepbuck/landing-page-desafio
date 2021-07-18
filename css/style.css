@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section-container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  text-align: center;
+  width: 100%;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+  background-color: #F8F8FF;
+  display: block;
+}
+
+.center{
+  max-width: 40%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+}
+
+.inputSearch{
+  width: 40%;
+  height: 30px;
+  margin-top: 17px;
+  margin-left: 30%;
+  display: flex;
+  text-align: center;
+  border-radius: 12px;
+  background:  #fff;
+  color: #000;
+  border: 2px solid #bed88a;
+  float:left;
+}
+
+.buttonSearch{
+  width: 10%;
+  height: 30px;
+  margin: 17px;
+  padding: 1px 7px;
+  border-radius: 12px;
+  border: 2px solid #bed88a;
+  background: #fff;
+  color: #000;
+}
+
+.buttonSearch:hover{
+  cursor: pointer;
+  background-color: #9ACD32;
+  color: #000;
+}
+
+.sale{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color:#F8F8FF;
+}
+
+.saleTitle{
+  color: #6B8E23;
+  font-size: 250%;
+}
+
+.background-section-one{
+  background-color:#F8F8FF;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.productContainer{
+  display: flex;
+  width: 90%;
+  margin: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  float:right;
+}
+
+.produto{
+  border: 2px solid #bed88a;
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 200px;
+  font-family: 'Roboto',sans-serif;
+  border-radius: 10%;
+  padding: 10px 25px;
+}
+
+.bolsaImage{
+  width: 190px;
+  height: 250px;
+}
+
+.bolsaImage:hover{
+  cursor: pointer;
+}
+
+.description{
+  text-align:center;
+  margin: 5px 2px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.buyButton{
+  border-radius: 10px;
+  border: 2px solid #9ACD32;
+  background-color: #fff;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.buyButton:hover{
+  cursor: pointer;
+  background-color: #9ACD32		;
+  color: #000;
+}
+
+.background-section-two{
+  background-image: url(../assets/greenbackground.jpg); 
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-container{
+  background: #fff;
+  border-radius: 25px;
+  padding: 25px;
+  max-width: 450px;
+}
+
+
+
+@media (max-width: 700px){
+
+  .section-container{
+    flex-basis: 100%;
+    height: 100%;
+  }
+  .produto{
+    flex-basis: 100%;
+    margin: 5px 0;
+    height: 100%;
+  }
+
+  
+}
+
+.inputCadastro{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid #bed88a;
+  background: #fff;
+  color: #000;
+}
+
+.buttonCadastro{
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px;
+  background: #bed88a;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+.buttonCadastro:hover {
+  cursor: pointer;
+}
+ 
+
+form{
+  display: grid;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer{
+  height: 10px;
+  padding: 25px;
+  text-align: center;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+
